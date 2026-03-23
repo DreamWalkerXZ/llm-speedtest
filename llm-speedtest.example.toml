@@ -1,0 +1,30 @@
+# LLM Speedtest Configuration File
+# Copy this file to llm-speedtest.toml and customize it.
+# The config file is automatically searched in the current directory.
+
+# API base URL (default: Ollama)
+base_url = "http://localhost:11434/v1"
+
+# Model name (can be overridden by --model CLI argument)
+model = "qwen3.5"
+
+# Default prompt
+prompt = "Write a short story about a robot learning to love."
+
+# API key (default: sk-no-key for local servers)
+# api_key = "sk-no-key"
+
+# Maximum tokens to generate (optional)
+# max_tokens = 512
+
+# Sampling temperature (default: 1.0)
+temperature = 1.0
+
+# Number of runs for statistics (default: 1)
+# runs = 5
+
+# Discard first run as warmup (default: false)
+# warmup = true
+
+# Default CSV output file (optional)
+# csv = "results.csv"

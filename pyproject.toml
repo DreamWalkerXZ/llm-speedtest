@@ -1,0 +1,11 @@
+[project]
+name = "llm-speedtest"
+version = "0.1.0"
+description = "LLM API speed testing tool for TPS, TTFT, and End-to-End TPS measurement"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.29.0",
+    "rich>=14.3.3",
+    "tiktoken>=0.12.0",
+]
